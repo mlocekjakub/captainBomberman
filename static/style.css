@@ -1,0 +1,148 @@
+body{
+    background: url("img/background.png") no-repeat;
+    background-size: cover;
+}
+.flex-container {
+  display: flex;
+}
+.menu{
+    display: flex;
+}
+.stats{
+    font-size: 300%;
+    width: 20%;
+    text-align: center;
+    color: lavender;
+}
+
+.game-field {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 50px solid transparent;
+    border-image: url(../static/img/wall.png) 10 round;
+}
+
+.game-field .row {
+    height: 100px;
+    display: flex;
+}
+
+.field {
+    width: 100px;
+    background: url('img/floor.png');
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+.player {
+    background: url('img/bomber2.png'), url('img/floor.png');
+}
+/* bomba 1 -stage*/
+.player.bomb-1-stage {
+    background: url('img/bomber2.png'), url('img/bomb-1-stage.png'), url('img/floor.png');
+}
+
+.bomb-1-stage {
+    background: url('img/bomb-1-stage.png'), url('img/floor.png');
+}
+/*bomb -2 stage*/
+.player.bomb-2-stage {
+    background: url('img/bomber2.png'), url('img/bomb-2-stage.png'), url('img/floor.png');
+}
+
+.bomb-2-stage {
+    background: url('img/bomb-2-stage.png'), url('img/floor.png');
+}
+/* bomb 3- stage*/
+.player.bomb-3-stage {
+    background: url('img/bomber2.png'), url('img/bomb-3-stage.png'), url('img/floor.png');
+}
+
+.bomb-3-stage {
+    background: url('img/bomb-3-stage.png'), url('img/floor.png');
+}
+
+.bomb-last-stage {
+    background: url('img/bomb-last-stage.png'), url('img/floor.png');
+}
+
+.player.bomb-last-stage {
+    background: url('img/bomber2.png'), url('img/bomb-last-stage.png'), url('img/floor.png');
+}
+
+.fire {
+    background: url('img/fire.png'), url('img/floor.png');
+}
+
+.enemy {
+    background: url('img/enemy.png'), url('img/floor.png');
+}
+
+.wall {
+    background: url('img/wall.png');
+}
+
+.box {
+    background: url('img/box.png');
+}
+
+#close{
+    background: url('img/closed-doors.png');
+}
+
+#close.fire{
+    background: url('img/fire.png'), url('img/closed-doors.png');
+}
+#close.player{
+    background: url('img/bomber2.png'), url('img/closed-doors.png');
+}
+
+#close.bomb-1-stage {
+    background: url('img/bomb-1-stage.png'), url('img/closed-doors.png');
+}
+#close.bomb-2-stage {
+    background: url('img/bomb-2-stage.png'), url('img/closed-doors.png');
+}
+#close.bomb-3-stage {
+    background: url('img/bomb-3-stage.png'), url('img/closed-doors.png');
+}
+#close.bomb-last-stage {
+    background: url('img/bomb-last-stage.png'), url('img/closed-doors.png');
+}
+#close.bomb-1-stage.player {
+    background: url('img/bomber2.png'), url('img/bomb-1-stage.png'), url('img/closed-doors.png');
+}
+#close.bomb-2-stage.player {
+    background: url('img/bomber2.png'), url('img/bomb-2-stage.png'), url('img/closed-doors.png');
+}
+#close.bomb-3-stage.player {
+    background: url('img/bomber2.png'), url('img/bomb-3-stage.png'), url('img/closed-doors.png');
+}
+#close.bomb-last-stage.player {
+    background: url('img/bomber2.png'), url('img/bomb-last-stage.png'), url('img/closed-doors.png');
+}
+
+#close.enemy{
+    background: url('img/enemy.png'), url('img/closed-doors.png');
+}
+
+#open{
+	background: url('img/open-doors.png'), url('img/floor.png');
+}
+
+#open.player{
+	background: url('img/bomber2.png'), url('img/open-doors.png'), url('img/floor.png');
+}
+
+.bomb-item {
+    background: url("img/ammoBox.png"), url('img/floor.png');
+}
+.fire-item {
+    background: url("img/gasoline.png"), url('img/floor.png');
+}
+.vodka-item {
+    background: url("img/wodka.png"), url('img/floor.png');
+}

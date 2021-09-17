@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Page.css') }}" >
+    <script>
+    let finito = new Audio("static/sounds/adesso_finito.mp3");
+    finito.play()
+    </script>
+</head>
+<body class ='dead' >
+
+<div class="container">
+    <div class="vertical-center2">
+        <form action="/">
+            <h1 class = 'title1' > YOU ARE DEAD......<br>TĘPY .......!!!</h1><br>
+            <button type="submit" class = "finito" type="submit">TRY AGAIN</button>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>

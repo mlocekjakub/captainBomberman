@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript Game</title>
+    <meta charset="UTF-8">
+    <!-- http://proger.i-forge.net/The_smallest_transparent_pixel/ -->
+    <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=">
+    <script src="{{ url_for('static',filename='game.js')}}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" >
+</head>
+<body onload="game.initGame()">
+<div class="flex-container">
+    <div class="stats">
+        <div>Życia: <span class="lives-info"></span></div>
+        <div>Granaty: <span class="bombs-info"></span></div>
+        <div>Zasięg obrażenia: <span class="fire-info"></span></div>
+        <div><span class="vodka-info">Jesteś trzeźwy</span></div>
+        <br>
+        <div>Misja: Zrobić porządki</div>
+        <div>Zostało <span class="enemy-info"></span> kosmitów</div>
+    </div>
+    <div class="game-field"></div>
+</div>
+</body>
+</html>

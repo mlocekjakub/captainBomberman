@@ -1,0 +1,146 @@
+.game-field {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-field .row {
+    height: 25px;
+    display: flex;
+}
+
+.game-field .row .field {
+    height: 25px;
+    width: 25px;
+    background: url('img/open-field.png');
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+
+.game-field .row .player {
+    background: url('img/bomber2.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+/* bomba 1 -stage*/
+.game-field .row .player.bomb-1-stage {
+    background: url('img/bomber2.png'), url('img/bomb-1-stage.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+.game-field .row .bomb-1-stage {
+    background: url('img/bomb-1-stage.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+/*bomb -2 stage*/
+.game-field .row .player.bomb-2-stage {
+    background: url('img/bomber2.png'), url('img/bomb-2-stage.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+.game-field .row .bomb-2-stage {
+    background: url('img/bomb-2-stage.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+/* bomb 3- stage*/
+.game-field .row .player.bomb-3-stage {
+    background: url('img/bomber2.png'), url('img/bomb-3-stage.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+.game-field .row .bomb-3-stage {
+    background: url('img/bomb-3-stage.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+.game-field .row .enemy {
+    background: url('img/enemy.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+.game-field .row .player.bomb {
+    background: url('img/bomber2.png'), url('img/bomb.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+.game-field .row .bomb-last-stage {
+    background: url('img/bomb-last-stage.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+
+.game-field .row .fire {
+    background: url('img/fire.png'), url('img/open-field.png');
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}
+/* Reference solution for "Create mine flagging feature" user story */
+.game-field .row .field.flagged {
+    background: lavender;
+}
+
+.game-field .row .wall {
+    background: green;
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px wheat;
+}

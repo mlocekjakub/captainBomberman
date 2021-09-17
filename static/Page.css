@@ -1,0 +1,80 @@
+.start{
+    background: url('img/kapitan.png') no-repeat fixed center;
+    background-size: cover;
+}
+
+.container {
+  position: relative;
+    height: 100vh;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 28%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    left:35%;
+}
+
+.vertical-center2 {
+  margin: 0;
+  position: absolute;
+  top: 48%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    left:10%;
+}
+
+.finito
+{
+    background-color: transparent;
+    font-size: 400%;
+    width:550px;
+    height: 250px;
+
+}
+.title
+{
+    color:lavender;
+    font-size: 400%;
+    width:550px;
+    height: 250px;
+
+}
+.title1
+{
+    color:lavender;
+    font-size: 600%;
+    width:800px;
+    height: 250px;
+
+}
+.dead
+{
+    background: url('img/dead.jpg') no-repeat fixed center;
+    background-size: cover;
+
+}
+.dead2
+{
+    background: url('img/win.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+.finito3
+{
+    background-color: transparent;
+    font-size: 400%;
+    width:1300px;
+    height: 550px;
+
+}
+.vertical-center3 {
+    background-color: transparent;
+  margin: 0;
+  position: absolute;
+  top: 31%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    left:39%;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Page.css') }}" >
+</head>
+ <script>
+     let start = new Audio("static/sounds/start.mp3");
+     addEventListener("click", function (){
+         start.play();
+     })
+    </script>
+<body class ='start' >
+
+<div class="container">
+    <div class="vertical-center">
+        <form action="/game">
+            <h1 class = 'title' > KAPITAN BOMBERMAN</h1>
+            <button type="submit" class = "finito" type="submit">ROZPOCZNIJ MISJĘ</button>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
