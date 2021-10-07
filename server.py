@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -17,13 +17,8 @@ def game():
 def end():
     return render_template('end2.html')
 
+
 @app.route('/end2')
 def end2():
     return render_template('end.html')
 
-
-
-
-
-if __name__ == "__main__":
-    app.run(debug=True, port=5000)
